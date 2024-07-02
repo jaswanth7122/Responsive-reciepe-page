@@ -1,0 +1,113 @@
+.container {
+    background-color: #FFECB3;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 44px 10px;
+    width: 50%;
+    height: 91%;
+    background-color: azure;
+    border-radius: 20px;
+}
+
+.box img {
+    width: 92%;
+    height: 264px;
+    margin: 24px 24px;
+    border-radius: 20px;
+}
+
+.primary-header {
+    margin: -10px 29px;
+}
+
+.primary-header h1 {
+    font-size: 26px;
+
+}
+
+
+.box .box2 {
+    padding: 12px 36px;
+    width: 77%;
+    height: 10%;
+    border-radius: 10px;
+    margin: 18px 29px;
+    background-color: #eedcdf;
+}
+
+.box .box2 .secondary-header {
+    color: rgb(144, 16, 58);
+}
+
+.box .box2 ul {
+    margin: -8px 0px;
+    padding: 0px 28px;
+}
+
+.box .box2 ul li {
+    padding: 5px;
+}
+
+.box .box2 ul li span {
+    font-weight: 600;
+}
+
+.terinary-header {
+    color: #a30e34;
+    margin: 0px 32px;
+}
+
+.rem-data ul {
+    margin: 10px;
+}
+
+.rem-data ul li {
+    padding-left: 25px;
+}
+
+.rem-data hr {
+    width: 89%;
+}
+
+.rem-data ol {
+    margin: 10px -17px;
+    padding: 0px 36px;
+}
+
+.rem-data ol li {
+    padding-left: 15px;
+    margin: 9px 31px;
+    text-align: justify;
+}
+
+.rem-data ol li::marker {
+    color: #a30e34;
+}
+
+.rem-data ol li span {
+    font-weight: 600;
+}
+
+.conclusion p {
+    margin: 0px 30px;
+}
+
+.conclusion table {
+    margin: 0px 40px;
+}
+
+.conclusion table td {
+    padding: 17px 16px;
+    padding-right: 219px;
+    border-bottom: 2px rgba(51, 42, 42, 0.228) solid;
+}
